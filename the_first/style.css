@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    width: auto;
+}
+p{
+    font-size: 100%;
+    background-color: rgb(133, 179, 133);
+    margin: 1%;
+
+}
+
+@media (min-width:10px) and (max-width:320px){
+   p {
+       background-color: peru;
+    }
+    
+}
+@media (min-width:320px) and (max-width:800px) {
+    p{
+        background-color: brown;
+    }
+}
+@media (min-width:800px) and (max-width:1024px) {
+    p{
+        background-color:teal;
+    }
+}
+@media (min-width:1024px) and (max-width:1440px) {
+    p{
+        background-color:rgb(0, 41, 128);
+        color: white;
+    }
+}
+@media (min-width:1440px) and (max-width:2560px) {
+    p{
+        background-color:rgb(128, 0, 60);
+        color: white;
+    }
+}
