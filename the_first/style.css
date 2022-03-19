@@ -1,15 +1,13 @@
-.container{
-    display: flex;
-    width: auto;
-}
 p{
     font-size: 100%;
-    background-color: rgb(133, 179, 133);
-    margin: 1%;
-
+    background-color: rgb(156, 226, 156);
+  
+}
+.alld{
+    margin-top: 1%;
 }
 
-@media (min-width:10px) and (max-width:320px){
+@media (min-width:10px) and (max-width:319px){
    p {
        background-color: peru;
     }
@@ -28,12 +26,6 @@ p{
 @media (min-width:1024px) and (max-width:1440px) {
     p{
         background-color:rgb(0, 41, 128);
-        color: white;
-    }
-}
-@media (min-width:1440px) and (max-width:2560px) {
-    p{
-        background-color:rgb(128, 0, 60);
         color: white;
     }
 }
